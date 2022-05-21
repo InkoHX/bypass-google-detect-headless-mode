@@ -1,3 +1,3 @@
 # bypass-google-detect-headless-mode
 
-HeadlessモードでGoogleログインを突破するためのテスト
+完全ではないけど、HeadlessモードでGoogleログインを突破するためのテスト
