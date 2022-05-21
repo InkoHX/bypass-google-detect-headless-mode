@@ -1,0 +1,10 @@
+{
+  "name": "bypass-google-detect-headless-mode",
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "puppeteer": "^14.1.1"
+  }
+}
