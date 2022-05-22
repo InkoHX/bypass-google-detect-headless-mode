@@ -33,15 +33,12 @@ async function main() {
 
   try {
     await page.waitForSelector('input[type="password"]', { timeout: 3000 })
-    await browser.close()
 
     console.log('PASS!')
-  } catch (error) {
+  } catch (_) {
     console.error('FAILED!')
-
+  } finally {
     await browser.close()
-
-    process.exit(1)
   }
 }
 
